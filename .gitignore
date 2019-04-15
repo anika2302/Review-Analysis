@@ -1,0 +1,28 @@
+# directories
+.vscode/
+__pycache__/
+
+# data files
+data/**/*.*
+!data/**/*.gitkeep
+
+# model files
+model/*.*
+!/model/*.gitkeep
+
+# notebooks .. this doesn't work :/
+.ipynb_checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*/*/.ipynb_checkpoints/*
+
+# logs
+*.log
+
+# parameters
+src/data/parameters.json
+src/data/twitter_keys.yaml
+
+# others
+.DS_Store
+reviewanalysis.egg-info
